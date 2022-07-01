@@ -1,0 +1,11 @@
+{
+	"vendor": "Digital Solution",
+	"icon": "icon.png",
+	"main": "index.html",
+	"id": "com.lg.app.signage",
+	"inspectable":true,
+	"title":"Carnes",
+	"type": "web",
+	"version": "0.54",
+	"size":37051703
+}

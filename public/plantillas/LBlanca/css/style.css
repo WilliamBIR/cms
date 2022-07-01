@@ -1,0 +1,17 @@
+head{
+    border: 0;
+}
+body{
+    margin: 0px;
+    background: white;
+}
+.scroll{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.FullScreen{
+    width: 1080px; 
+    height: 1920px;
+}
+

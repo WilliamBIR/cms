@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+}
+
+html{
+ background: black;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+}
+
+header{
+    background-image:url("../res/img/titulo.jpg");
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 1080px;
+    float: left;
+
+}
+
+#main{
+    width: 1340px;
+    height: 752px;
+    float: left;
+}
+
+video{
+    width: 1340px !important;
+    height: 752px !important;
+}
+
+footer{
+    background: black;
+    width: 1340px;
+    height: 328px;
+    float: left;
+}
+
+footer img{
+    width: 335px;
+}
+
+.descripcion{
+    width: 550px;
+    height: 141px;
+    position: absolute;
+}
+
+@font-face{
+    font-family: "Precio";
+    font-stretch: expanded;
+    src: url("../fuentes/MyriadPro-Bold.otf");
+}
+
+@font-face{
+    font-family: "Articulo";
+    font-stretch: expanded;
+    src: url("../fuentes/MyriadPro-BoldCond.otf");
+}
+
+.money{
+	padding: 21px 10px;
+    width: 230px;
+    height: 99px;
+    font-family: "Precio";
+    text-align: right;
+    line-height: 100px !important; 
+}
+
+.articulo{
+	position: absolute;
+    top: 0px;
+    left: 250px;
+    width: 300px;
+    height: 100%;
+    font-family: "Precio";
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#marco{
+    width: 550px;
+    position: absolute;
+    height: 578px;
+    top: 502px;
+    left: 15px;
+}
+
+#espacio1{
+	position:absolute;
+	width: 550px;
+    height: 142px; 
+}
+
+#espacio2{
+    position:absolute;
+	width: 550px;
+    height: 142px;
+    top: 144px;
+}
+
+#espacio3{
+    position:absolute;
+	width: 550px;
+    height: 144px;
+    top: 288px;
+}
+
+#espacio4{
+    position:absolute;
+	width: 550px;
+    height: 144px;
+    top: 434px;
+}
+
+#precio1{
+    position: absolute;
+    left: -10px;
+}
+
+#precio2{
+    position: absolute;
+    left: -10px;
+}
+
+#precio3{
+    position: absolute;
+    left: -10px;
+}
+
+#precio4{
+    position: absolute;
+    left: -10px;
+}
+
+p{
+    font-size: 35px;
+    width: 270px;
+    height: 100px;
+}
+
+.dos{
+    display:none;
+}
+
+.tres{
+    display:none;
+}
+
+.cuatro{
+    display:none;
+}
+
+.cinco{
+    display:none;
+}
+
+.seis{
+    display:none;
+}
+
+.img{
+    height: 330px;
+    float: left;
+}
+.seccion{
+	width: 335px;
+    height: 328px;
+    float: left;
+}

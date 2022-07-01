@@ -1,0 +1,76 @@
+{
+    "fecha": "20191121",
+    "hora": "1316",
+    "page": "2",
+    "cantxPage": "6",
+    "paginas":[
+        {
+            "hoja":[
+                {
+                    "precio": "18",
+                    "centavo": ".00",
+                    "producto": "Te - 8 oz"
+                },
+                {
+                    "precio": "20",
+                    "centavo": ".00",
+                    "producto": "Te - 16 oz"
+                },
+                {
+                    "precio": "32",
+                    "centavo": ".00",
+                    "producto": "Matcha Caliente 8 oz"
+                },
+                {
+                    "precio": "32",
+                    "centavo": ".00",
+                    "producto": "Matcha Caliente 16 oz"
+                },
+                {
+                    "precio": "37",
+                    "centavo": ".00",
+                    "producto": "Chocolate - 8 oz"
+                },
+                {
+                    "precio": "37",
+                    "centavo": ".00",
+                    "producto": "Chocolate - 16 oz"
+                }
+            ]
+        },
+        {
+            "hoja":[
+                {
+                    "precio": "8",
+                    "centavo": ".00",
+                    "producto": "Shot Leche"
+                },
+                {
+                    "precio": "25",
+                    "centavo": ".00",
+                    "producto": "Te Latte - 8 oz"
+                },
+                {
+                    "precio": "35",
+                    "centavo": ".00",
+                    "producto": "Te Latte - 16 oz"
+                },
+                {
+                    "precio": "",
+                    "centavo": "",
+                    "producto": ""
+                },
+                {
+                    "precio": "",
+                    "centavo": "",
+                    "producto": ""
+                },
+                {
+                    "precio": "",
+                    "centavo": "",
+                    "producto": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="./js/cordova/2.7.0/cordova.webos.js"></script>
+    <script type="text/javascript" src="./js/cordova-cd/storage.js"></script>
+    <script type="text/javascript" src="./js/GaplessPlayback.js"></script>
+	<script type="text/javascript" src="./js/cordova-cd/configuration.js"></script>
+    <script type="text/javascript" src="precios.js"></script>
+    <script src="video.js"></script>
+	<script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body onload="checarLista();playlist();">
+    <header id="header">
+    	<div id="marco">
+    		<div id="espacio1"><p id="precio1" class="money"></p><p id="centavos1" class="centavo"></p><p id="articulo1" class="articulo"></p></div>
+    		<div id="espacio2"><p id="precio2" class="money"></p><p id="centavos2" class="centavo"></p><p id="articulo2" class="articulo"></p></div>
+    		<div id="espacio3"><p id="precio3" class="money"></p><p id="centavos3" class="centavo"></p><p id="articulo3" class="articulo"></p></div>
+    	</div>
+    </header>
+    <section id="main">
+        <div id ='gaplessPlayer'></div>
+    </section>
+</body>
+</html>

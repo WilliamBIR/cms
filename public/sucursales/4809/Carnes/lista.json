@@ -1,0 +1,17 @@
+{
+"fecha":"20220426",
+"hora":"2015",
+"page":"1",
+"cantxPage":"5",
+"pfijo1":"165",
+"cfijo1":"00",
+"nameFijo1":"Arrachera ligera SK -pza",
+"paginas":[
+	{"hoja":[
+		{"precio":"165","centavo":"00","producto":"Arrachera ligera SK - pza"},
+		{"precio":"49","centavo":"90","producto":"Carne Molida"},
+		{"precio":"","centavo":"","producto":""},
+		{"precio":"","centavo":"","producto":""},
+		{"precio":"","centavo":"","producto":""}
+	]}
+]}

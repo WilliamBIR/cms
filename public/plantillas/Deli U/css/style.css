@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+@font-face{
+    font-family: "Precio";
+    font-stretch: expanded;
+    src: url("../fonts/MyriadPro-Bold.otf");
+}
+
+@font-face{
+    font-family: "Articulo";
+    font-stretch: expanded;
+    src: url("../fonts/MyriadPro-BoldCond.otf");
+}
+body {
+	font-size: 200%;
+	width: 3840px;
+	height: 600px;
+}
+.titulo{
+	width: 945px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("../res/img/titulo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pollo{
+	width: 975px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 945px;
+	background: url("../res/img/0.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pizza{
+	width: 945px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 1920px;
+	background: url("../res/img/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.combo{
+	width: 975px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 2865px;
+	background: url("../res/img/2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.espacio{
+	position: absolute;
+	left: 0;
+    width: 100%;
+    height: 60px;
+}
+.articulo{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 444px;
+    height: 45px;
+    font-family: "Precio";
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    letter-spacing: -1.6px;
+    padding: 15px 0 0 6px;
+}
+.cantidad{
+	font-family: "Precio";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 142px;
+    height: 54px;
+    letter-spacing: -2px;
+    padding: 6px 0 0 0;
+}
+.money{
+	width: 107px;
+    height: 60px;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 48px;
+}
+.centavo{
+	display: initial;
+    position: absolute;
+	top: 3px;
+	padding: 7px 0 0 0;
+	font-size: 30px;
+}
+#marco{
+	position: absolute;
+    top: 300px;
+    left: 155px;
+    width: 620px;
+    height: 300px;
+}
+#espacio1{
+    top: 0;
+}
+#espacio2{
+    top: 60px;
+}
+#espacio3{
+    top: 120px;
+}
+#espacio4{
+    top: 180px;
+}
+#espacio5{
+    top: 240px;
+}

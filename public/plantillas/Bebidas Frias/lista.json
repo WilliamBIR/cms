@@ -1,0 +1,76 @@
+{
+    "fecha": "20191121",
+    "hora": "1316",
+    "page": "2",
+    "cantxPage": "6",
+    "paginas":[
+        {
+            "hoja":[
+                {
+                    "precio": "10",
+                    "centavo": ".00",
+                    "producto": "Agua Enbotellada 500 ml"
+                },
+                {
+                    "precio": "15",
+                    "centavo": ".00",
+                    "producto": "Refresco Lata 355 ml"
+                },
+                {
+                    "precio": "15",
+                    "centavo": ".00",
+                    "producto": "Refresco Light 355 ml"
+                },
+                {
+                    "precio": "45",
+                    "centavo": ".00",
+                    "producto": "Matcha Frappe 16 oz"
+                },
+                {
+                    "precio": "45",
+                    "centavo": ".00",
+                    "producto": "Capuchino Frappe 16 oz"
+                },
+                {
+                    "precio": "45",
+                    "centavo": ".00",
+                    "producto": "Capuchino Frio 16 oz"
+                }
+            ]
+        },
+        {
+            "hoja":[
+                {
+                    "precio": "20",
+                    "centavo": ".00",
+                    "producto": "Perrier"
+                },
+                {
+                    "precio": "22",
+                    "centavo": ".00",
+                    "producto": "Jugo embotellado"
+                },
+                {
+                    "precio": "",
+                    "centavo": "",
+                    "producto": ""
+                },
+                {
+                    "precio": "",
+                    "centavo": "",
+                    "producto": ""
+                },
+                {
+                    "precio": "",
+                    "centavo": "",
+                    "producto": ""
+                },
+                {
+                    "precio": "",
+                    "centavo": "",
+                    "producto": ""
+                }
+            ]
+        }
+    ]
+}

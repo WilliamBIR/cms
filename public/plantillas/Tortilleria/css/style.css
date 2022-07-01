@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+html{
+ background: black;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+}
+
+header{
+    background-image:url("../res/img/titulo.jpg");
+    background-repeat: no-repeat;
+    width: 433px;
+    height: 1080px;
+    float: left;
+
+}
+
+#main{
+    width: 1495px;
+    height: 1080px;
+    position: fixed;
+    right: 0;
+}
+
+video{
+    width: 1487px;
+    height: 1080px;
+    position: absolute;
+    top: 0px;
+    left: 433px;
+}
+
+footer{
+    background: black;
+    width: 1340px;
+    height: 328px;
+    float: left;
+}
+
+footer img{
+    width: 335px;
+}
+
+.descripcion{
+    width: 550px;
+    height: 141px;
+    position: absolute;
+}
+
+@font-face{
+    font-family: "Precio";
+    font-stretch: expanded;
+    src: url("../fuente/MyriadPro-Bold.otf");
+}
+
+@font-face{
+    font-family: "Articulo";
+    font-stretch: expanded;
+    src: url("../fuente/MyriadPro-BoldCond.otf");
+}
+
+.money{
+	width: 270px;
+    height: 137px;
+    font-family: "Precio";
+    text-align: right;
+    line-height: 155px !important;
+    font-size: 120px;
+    letter-spacing: -5px; 
+}
+.centavo{
+	width: 161px;
+    height: 137px;
+    font-family: "Precio";
+	position: absolute;
+    top: 0px;
+    left: 270px;
+    line-height: 110px;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+.articulo{
+	position: absolute;
+    top: 119px;
+    left: 55px;
+    width: 336px;
+    height: 106px;
+    font-family: "Precio";
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#marco{
+    width: 432px;
+    position: absolute;
+    height: 676px;
+    top: 360px;
+}
+
+#espacio1{
+	position: absolute;
+    width: 433px;
+    height: 225px;
+}
+
+#espacio2{
+    position: absolute;
+    width: 433px;
+    height: 225px;
+    top: 225px;
+}
+
+#espacio3{
+    position:absolute;
+	width: 433px;
+    height: 225px;
+    top: 450px;
+}
+
+#precio1{
+    width: 270px;
+    height: 137px;
+    font-family: "Precio";
+    text-align: right;
+    line-height: 155px !important;
+}
+
+#precio2{
+    width: 270px;
+    height: 137px;
+    font-family: "Precio";
+    text-align: right;
+    line-height: 155px !important;
+}
+
+#precio3{
+    width: 270px;
+    height: 137px;
+    font-family: "Precio";
+    text-align: right;
+    line-height: 155px !important;
+}
+
+p{
+    font-size: 35px;
+    width: 270px;
+    height: 100px;
+}
+
+.seccion{
+	width: 335px;
+    height: 328px;
+    float: left;
+}

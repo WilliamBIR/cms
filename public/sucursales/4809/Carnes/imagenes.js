@@ -1,0 +1,1 @@
+var imagenes= ['0jpeg','1.jpg'];

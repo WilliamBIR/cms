@@ -1,0 +1,66 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Catalogo BEBES</title>
+	
+	<!-- Ruta para el emulador --><!-- 
+	<script type="text/javascript" src="////media/developer/apps/usr/palm/applications/com.lg.app.signage/js/cordova/2.7.0/cordova.webos.js"></script>
+	<script type="text/javascript" src="////media/developer/apps/usr/palm/applications/com.lg.app.signage/js/cordova-cd/storage.js"></script>
+	<script type="text/javascript" src="////media/developer/apps/usr/palm/applications/com.lg.app.signage/js/cordova-cd/configuration.js"></script>
+	<script type="text/javascript" src="////media/developer/apps/usr/palm/applications/com.lg.app.signage/js/cordova-cd/deviceInfo.js"></script>
+	<script type="text/javascript" src="////media/developer/apps/usr/palm/applications/com.lg.app.signage/js/index.js"></script>-->
+	
+	<!-- Ruta para la pantalla -->
+	<script type="text/javascript" src="////media/cryptofs/apps/usr/palm/applications/com.lg.app.signage/js/cordova/2.7.0/cordova.webos.js"></script>
+	<script type="text/javascript" src="////media/cryptofs/apps/usr/palm/applications/com.lg.app.signage/js/cordova-cd/storage.js"></script>
+	<script type="text/javascript" src="////media/cryptofs/apps/usr/palm/applications/com.lg.app.signage/js/cordova-cd/configuration.js"></script>
+	<script type="text/javascript" src="////media/cryptofs/apps/usr/palm/applications/com.lg.app.signage/js/cordova-cd/deviceInfo.js"></script>
+	<script type="text/javascript" src="////media/cryptofs/apps/usr/palm/applications/com.lg.app.signage/js/index.js"></script>
+	
+	<!-- Ruta para solo la aplicacion -->
+	<!--<script type="text/javascript" src="./js/cordova/2.7.0/cordova.webos.js"></script>
+	<script type="text/javascript" src="./js/cordova-cd/storage.js"></script>
+	<script type="text/javascript" src="./js/cordova-cd/configuration.js"></script>
+	<script type="text/javascript" src="./js/cordova-cd/deviceInfo.js"></script>-->
+	
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		#myCarousel {								
+			 position: relative;
+			float: left;
+			overflow: hidden;
+	  		overflow: auto;
+		}
+	</style>
+	<script src="src/Animate.js"></script>
+	<script src="src/Scroller.js"></script>
+	<script src="src/EasyScroller.js"></script>	
+</head>
+<body>
+	<video class="FullScreen" id="myVideo" onclick=showMenu()></video>
+	<div class = "menu">
+		<img class="FullScreen" id="menuDeportes" src="res/img/menuBebes.png" usemap="#botones">
+		<map name="botones">
+			<area shape="rect" coords="472,1640,193,1360" alt="android" onclick=androidD()>
+			<area shape="rect" coords="884,1640,603,1360" alt="ios" onclick=iosD()>
+		</map>
+	</div>
+	<video id="sistemVideo" onclick=Deportes()></video>
+	<div id="myCarousel" data-scrollable="y">
+		<table id="imgDeportes">
+			<tr>
+				<td>
+				 	<img src="res\img\1.jpg"   alt="1" >
+				</td>
+			</tr>
+			<tr>
+				<td>
+				 	<img src="res\img\2.jpg" alt="2" >
+				</td>
+			</tr>
+	  </table>
+   </div>	
+   <script src='js/main.js'></script>
+
+</body>
+</html>

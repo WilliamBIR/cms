@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+}
+html{
+ background: black;
+}
+body{
+    width: 1920px;
+    height: 1080px;
+}
+
+header{
+    background-image:url("../res/img/titulo.jpg");
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 1080px;
+    float: left;
+
+}
+#main{
+    width: 1340px;
+    height: 710px;
+    height: 755px;
+    float: left;
+}
+video{
+    width: 1340px !important;
+    height: 710px;
+    height: 755px !important;
+}
+footer{
+    background: black;
+    width: 1340px;
+    height: 370px;
+    height: 325px;
+    float: left;
+}
+footer img{
+    width: 330px;
+}
+.descripcion{
+    width: 550px;
+    height: 141px;
+    position: absolute;
+}
+@font-face{
+    font-family: "Precio";
+    font-stretch: expanded;
+    src: url("../fuentes/MyriadPro-Bold.otf");
+}
+@font-face{
+    font-family: "Articulo";
+    font-stretch: expanded;
+    src: url("../fuentes/MyriadPro-BoldCond.otf");
+}
+.money{
+    position: absolute;
+    left: -18px;
+	padding: 21px 10px;
+    width: 204px;
+    height: 99px;
+    font-family: "Precio";
+    text-align: right;
+    line-height: 110px !important; 
+}
+.articulo{
+	position: absolute;
+    top: 0px;
+    left: 210px;
+    width: 336px;
+    height: 100%;
+    font-family: "Precio";
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#marco{
+    width: 550px;
+    position: absolute;
+    height: 706px;
+    top: 374px;
+    left: 15px;
+}
+#espacio1{
+	position:absolute;
+	width: 550px;
+    height: 142px; 
+}
+#espacio2{
+    position:absolute;
+	width: 550px;
+    height: 141px;
+    top: 146px;
+}
+#espacio3{
+    position:absolute;
+	width: 550px;
+    height: 143px;
+    top: 291px;
+}
+#espacio4{
+    position:absolute;
+	width: 550px;
+    height: 142px;
+    top: 438px;
+}
+#espacio5{
+    position:absolute;
+	width: 550px;
+    height: 121px;
+    top: 584px;
+}
+
+p{
+    font-size: 35px;
+    width: 270px;
+    height: 100px;
+}
+.dos{
+    display:none;
+}
+.tres{
+    display:none;
+}
+.cuatro{
+    display:none;
+}
+.cinco{
+    display:none;
+}
+.seis{
+    display:none;
+}
+.img{
+    height: 370px;
+    height: 325px;
+    float: left;
+}
+#imagen1{
+    width: 540px;
+}
+#imagen2{
+    width: 800px;
+}
+.seccion{
+    height: 324px;
+    float: left;
+}
+#seccion1{
+    background-image:url("../res/img/Background-precio.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+}
+#pimagen1{
+    color: white;
+    display: flex;
+    font-family: precio;
+    font-size: 125px;
+    float: left;
+    line-height: 105px;
+    width: auto;
+}
+#pimagen2{
+    color: white;
+    display: inline;
+    font-family: precio;
+    font-size: 60px;
+    width: auto;
+}
+#p2imagen1{
+    color: white;
+    display: flex;
+    font-family: Articulo;
+    font-size: 55px;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height:auto;
+}

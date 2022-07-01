@@ -1,0 +1,11 @@
+{
+	"vendor": "Digital Solution",
+	"icon": "icon.png",
+	"main": "index.html",
+	"id": "com.lg.app.signage",
+	"inspectable":true,
+	"title":"Bebidas Frias",
+	"type": "web",
+	"version": "0.1",
+	"size":6485336
+}

@@ -1,0 +1,11 @@
+{
+	"vendor": "Digital Solution",
+	"icon": "icon.png",
+	"main": "index.html",
+	"id": "com.lg.app.signage",
+	"inspectable":true,
+	"title":"Panecillos 2",
+	"type": "web",
+	"version": "0.2",
+	"size":574257
+}

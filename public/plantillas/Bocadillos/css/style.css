@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+
+html{
+ background: black;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+}
+
+header{
+    background-image: url(../res/img/titulo.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    width: 638px;
+    height: 1080px;
+    float: left;
+}
+
+main{
+    width: 1487px;
+    height: 1080px;
+}
+
+.descripcion{
+    width: 550px;
+    height: 141px;
+    position: absolute;
+}
+
+@font-face{
+    font-family: "Precio";
+    font-stretch: expanded;
+    src: url("../fuente/MyriadPro-Bold.otf");
+}
+
+@font-face{
+    font-family: "Articulo";
+    font-stretch: expanded;
+    src: url("../fuente/MyriadPro-BoldCond.otf");
+}
+.centavo{
+	width: 37px;
+    height: 141px;
+    font-family: "Precio";
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    line-height: 110px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.money{
+	padding: 21px 10px;
+    width: 174px;
+    height: 99px;
+    font-family: "Precio";
+    font-size: 85px;
+    text-align: right;
+    letter-spacing: -5px;
+    line-height: 100px !important;
+}
+
+.articulo{
+	position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 425px;
+    height: 127px;
+    font-family: "Precio";
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#marco{
+    width: 615px;
+    position: absolute;
+    height: 706px;
+    top: 354px;
+    left: 15px;
+}
+#espacio1{
+	position: absolute;
+	width: 638px;
+    height: 118px;
+    top: 8px;
+    left: -15px;
+}
+#espacio2{
+    position: absolute;
+    width: 638px;
+    height: 118px;
+    top: 128px;
+    left: -15px;
+}
+#espacio3{
+    position: absolute;
+    width: 638px;
+    height: 119px;
+    top: 248px;
+    left: -15px;
+}
+#espacio4{
+    position: absolute;
+    width: 638px;
+    height: 119px;
+    top: 368px;
+    left: -15px;
+}
+#espacio5{
+    position: absolute;
+    width: 638px;
+    height: 119px;
+    top: 488px;
+    left: -15px;
+}
+#espacio6{
+    position: absolute;
+    width: 638px;
+    height: 119px;
+    top: 608px;
+    left: -15px;
+}
+
+video{
+	width: 1274px;
+    height: 638px;
+    position: absolute;
+}
+#imag1{
+	float: left;
+}
+.seccion{
+	position: absolute;
+    right: 0px;
+	width: 1290px;
+}
+#secImag1{
+	background-image:url("../res/img/precio1.png");
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 442px;
+    position: absolute;
+    top: 0px;
+}
+#secImag2{
+	background-image:url("../res/img/precio2.png");
+    background-repeat: no-repeat;
+    width: 673px;
+    position: absolute;
+    top: 0px;
+    left: 672px;
+    height: 442px;
+}
+#section1{
+    height: 1080px;
+    top: 0px;
+}
+
+.precio{
+    position: absolute;
+    display:flex;
+	justify-content: flex-end;
+    right: 40px;
+}

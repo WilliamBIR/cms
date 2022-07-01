@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="./js/cordova/2.7.0/cordova.webos.js"></script>
+    <script type="text/javascript" src="./js/cordova-cd/storage.js"></script>
+    <script type="text/javascript" src="./js/GaplessPlayback.js"></script>
+	<script type="text/javascript" src="./js/cordova-cd/configuration.js"></script>
+    <script src="video.js"></script>
+    <script src="precios.js"></script>
+    <!-- <script src="js/localList.js"></script> -->
+    <script src="js/main.js"></script>
+    <title>Bebidas Frias 2</title>
+</head>
+<body onload="checarLista();playlist();">
+<!-- <body onload="checarLista()"></body> -->
+    <div class="container">
+        <div class="title">
+            <img src="./res/img/titulo.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="video"><div id = 'gaplessPlayer'></div></div>
+            <div class="precios"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

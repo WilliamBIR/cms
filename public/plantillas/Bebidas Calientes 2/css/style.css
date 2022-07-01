@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+}
+
+html{
+ background: black;
+}
+
+body{
+	background-image:url("../res/img/bebidascalientes.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1920px;
+    height: 1080px;
+}
+
+header{
+    background-image:url("../res/img/precios.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 215px;
+    left: 640px;
+    width: 1280px;
+    height: 865px;
+    float: left;
+}
+
+main{
+    width: 1487px;
+    height: 1080px;
+}
+
+.descripcion{
+    width: 550px;
+    height: 141px;
+    position: absolute;
+}
+
+@font-face{
+    font-family: "Precio";
+    font-stretch: expanded;
+    src: url("../fuente/MyriadPro-Bold.otf");
+}
+
+@font-face{
+    font-family: "Articulo";
+    font-stretch: expanded;
+    src: url("../fuente/MyriadPro-BoldCond.otf");
+}
+.centavo{
+	position: absolute;
+	top: 5px;
+    right: 40px;
+    color:#b9944d;
+}
+
+.money{
+    width: 120px;
+    height: 80px;
+    font-family: "Precio";
+    font-size: 65px;
+    text-align: right;
+    letter-spacing: -5px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articulo{
+	position: absolute;
+    top: 5px;
+    left: 0;
+    width: 700px;
+    height: 80px;
+    font-family: "Precio";
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#274a5d;
+    letter-spacing: -2px;
+}
+
+#marco{
+    width: 1020px;
+    position: absolute;
+    height: 500px;
+    top: 145px;
+    left: 125px;
+}
+#espacio1{
+	position: absolute;
+    width: 1020px;
+    height: 85px;
+    top: 0;
+    left: 0;
+}
+#espacio2{
+    position: absolute;
+    width: 1020px;
+    height: 80px;
+    top: 85px;
+    left: 0;
+}
+#espacio3{
+    position: absolute;
+    width: 1020px;
+    height: 85px;
+    top: 165px;
+    left: 0;
+}
+#espacio4{
+    position: absolute;
+    width: 1020px;
+    height: 80px;
+    top: 250px;
+    left: 0;
+}
+#espacio5{
+    position: absolute;
+    width: 1020px;
+    height: 85px;
+    top: 330px;
+    left: 0;
+}
+#espacio6{
+    position: absolute;
+    width: 1020px;
+    height: 85px;
+    top: 415px;
+    left: 0;
+}
+#espacio7{
+    position: absolute;
+    width: 1020px;
+    height: 85px;
+    top: 500px;
+    left: 0;
+}
+#espacio8{
+    position: absolute;
+    width: 1020px;
+    height: 85px;
+    top: 585px;
+    left: 0;
+}
+video{
+	width: 1274px;
+    height: 638px;
+    position: absolute;
+}
+#imag1{
+	float: left;
+}
+.seccion{
+	position: absolute;
+    left: 0px;
+	width: 640px;
+}
+#secImag1{
+	background-image:url("../res/img/precio1.png");
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 442px;
+    position: absolute;
+    top: 0px;
+}
+#secImag2{
+	background-image:url("../res/img/precio2.png");
+    background-repeat: no-repeat;
+    width: 673px;
+    position: absolute;
+    top: 0px;
+    left: 672px;
+    height: 442px;
+}
+#section1{
+    height: 864px;
+    top: 216px;
+}
+
+.precio{
+	position: absolute;
+	top: 5px;
+    right: 199px;
+    color:#b9944d;
+}
+.money::before {
+	content:"$";
+	position: absolute;
+    left: 0;
+    font-size: 40px;
+}
+#titulo{
+    background-image:url("../res/img/titulo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1920px;
+    height: 215px;
+}
+.separador{
+	border-top:3px solid #849199;
+}
